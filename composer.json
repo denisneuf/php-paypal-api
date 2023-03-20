@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "denisneuf\\php-paypal-api\\": "src/"
+            "denisneuf\\PayPalClientPackage\\": "src/"
         }
     }
 
