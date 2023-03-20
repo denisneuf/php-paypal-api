@@ -1,0 +1,21 @@
+{
+    "name": "denisneuf/php-paypal-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "denisneuf",
+            "homepage": "https://github.com/denisneuf"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "denisneuf\\php-paypal-api\\": "src/"
+        }
+    }
+
+}
+
