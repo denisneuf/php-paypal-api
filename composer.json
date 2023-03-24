@@ -1,11 +1,17 @@
 {
     "name": "denisneuf/php-paypal-api",
-    "type": "library",
+    "description": "A PHP wrapper for using Diffbot's API",
+    "keywords": [
+        "diffbot", "api", "wrapper", "client"
+    ],
+    "homepage": "https://github.com/denisneuf/php-paypal-api",
     "license": "MIT",
     "authors": [
         {
             "name": "denisneuf",
-            "homepage": "https://github.com/denisneuf"
+            "email": "denisneuf@hotmail.com",
+            "homepage": "https://leadtech.es",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -13,9 +19,14 @@
     },
     "autoload": {
         "psr-4": {
-            "denisneuf\\PayPalClientPackage\\": "src/"
+            "PayPalSdk\\": "src/sdk",
+            "PayPalHttp\\": "src/http"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
-
 }
 
